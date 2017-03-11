@@ -1,0 +1,73 @@
+.board {
+  margin: 0 auto;
+  width: 23%;
+  margin-top: 150px;
+}
+
+.game {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color:red;
+  border-radius: 5px;
+  line-height: 44px;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+.combine {
+  margin-left: 48px;
+}
+
+.title {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-left: -17px;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.secondrow {
+  margin-top: 10px;
+}
+
+.firstrow {
+  float: left;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.thirdrow {
+  margin-top: 10px;
+
+}
+
+.result {
+  margin-top: 15px;
+text-align: center;
+margin-right: 27px;
+text-transform: uppercase;
+font-weight: bold;
+font-size: -webkit-xxx-large;
+}
+
+
+.score {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+table {
+  margin-left: 55px;
+  width: 80px;
+}
+
+
+tr td {
+  text-align: center;
+}
