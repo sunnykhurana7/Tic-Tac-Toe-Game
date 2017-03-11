@@ -1,7 +1,7 @@
 .board {
   margin: 0 auto;
   width: 23%;
-  margin-top: 150px;
+  margin-top: 66px;
 }
 
 .game {
@@ -13,6 +13,8 @@
   line-height: 44px;
   text-align: center;
   vertical-align: top;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 
@@ -70,4 +72,13 @@ table {
 
 tr td {
   text-align: center;
+}
+
+
+.right {
+  float: right;
+  clear: both;
+  margin-top: -36px;
+  margin-right: 25px;
+  text-transform: uppercase;
 }

@@ -8,7 +8,6 @@ function clearall(){
   $(".sixth").text('');
   $(".seventh").text('');
   $(".eigth").text('');
-
 }
 
 
@@ -21,6 +20,7 @@ $(document).ready(function() {
   $("#plaOne").text(playerone);
   $("#platwo").text(playertwo);
 
+  $('.right').text('Player 1 turns');
 
   var counter = 0;
 
@@ -29,9 +29,41 @@ $(document).ready(function() {
 
     // console.log();
 
+
+
+
     if((this).innerText == ""){
 
       counter ++ ;
+
+          switch (counter) {
+            case 1 :
+              $('.right').text('Player 2 turns');
+            break;
+            case 2 :
+              $('.right').text('Player 1 turns');
+            break;
+            case 3 :
+              $('.right').text('Player 2 turns');
+            break;
+            case 4 :
+              $('.right').text('Player 1 turns');
+            break;
+            case 5 :
+              $('.right').text('Player 2 turns');
+            break;
+            case 6 :
+              $('.right').text('Player 1 turns');
+            break;
+            case 7 :
+              $('.right').text('Player 2 turns');
+            break;
+            case 8 :
+              $('.right').text('Player 1 turns');
+            break;
+
+          }
+
 
       $(this).text(t);
 
@@ -42,12 +74,7 @@ $(document).ready(function() {
           t = 'X';
         }
 
-
             winorlose();
-    
-
-
-
 
     }
 
@@ -78,6 +105,8 @@ $(document).ready(function() {
       playerone++;
       clearall();
       counter = 0;
+      $('.right').text(' ');
+
 
     }else if (zero == 'O' && first == 'O' && second == 'O') {
       playertwo ++ ;
